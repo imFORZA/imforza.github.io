@@ -1,9 +1,15 @@
 <!doctype html>
 <head>
 	<script>
-		window.location.href = 'https://imforza.com';
+		document.location.replace('https://imforza.com');
+		
+		// If all else fails.
+		setTimeout(function(){
+			window.location.href = 'https://imforza.com';
+		}, 1000);
 	</script>    
 </head>
 <body>
+	Redirecting you to imforza...
 </body>
 </html>
